@@ -15,7 +15,7 @@ const estudiantes = {
         "Fausto David Rodriguez Pozo",
         "Sheyla Valeska Pilligua Pita",
         "Lissette Susana Solano Quinde",
-        "David Gomez Solano"
+        "David Gomez Solano",
     ],
 
     "Clase 2": [
@@ -40,7 +40,7 @@ const estudiantes = {
         "Kevin Josué Limones Muñoz",
         "Scarlette Valeshka Lino Domínguez",
         "Justin Javier Roca Tomala",
-        "Alexis Ariel López Rosales"
+        "Alexis Ariel López Rosales",
     ],
 
     "Clase 3": [
@@ -56,7 +56,7 @@ const estudiantes = {
         "Karla Hernandez Del Pezo",
         "Samuel Andrés Rodríguez Pozo",
         "Adrian Joel Rodriguez Suarez",
-        "Niurka Rivera Muñoz"
+        "Niurka Rivera Muñoz",
     ],
 
     "Clase 4": [
@@ -67,8 +67,8 @@ const estudiantes = {
         "Valeska Milena Escalante Medina",
         "Isabella Valeria Guzñay Gomez",
         "Natasha Isabel Bernabé Rivera",
-        "Ana Belen Rosales Sanchez"
-    ]
+        "Ana Belen Rosales Sanchez",
+    ],
 };
 
 document.addEventListener("DOMContentLoaded", cargarLista);
