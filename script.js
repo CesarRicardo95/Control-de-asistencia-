@@ -117,4 +117,3 @@ function guardarAsistencia() {
 
     alert("Asistencia guardada correctamente ✅");
 }
-
