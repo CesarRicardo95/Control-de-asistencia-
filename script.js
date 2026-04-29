@@ -106,12 +106,25 @@ function guardarAsistencia() {
 
     let historial = JSON.parse(localStorage.getItem("historial")) || [];
 
+    const fechaHoy = obtenerFechaHoy();
+
+    // 🚫 Validar duplicado (misma clase + mismo día)
+    const yaExiste = historial.some(reg => 
+        reg.clase === clase && reg.fechaDia === fechaHoy
+    );
+
+    if (yaExiste) {
+        alert("⚠️ Ya registraste asistencia para esta clase hoy");
+        return;
+    }
+
     lista.forEach(item => {
         const nombre = item.querySelector("span").textContent;
         const estado = item.querySelector("select").value;
 
         historial.push({
-            fecha: new Date().toLocaleString(),
+            fecha: new Date().toLocaleString(), // fecha visible
+            fechaDia: fechaHoy, // clave para evitar duplicados
             clase,
             nombre,
             estado
@@ -120,10 +133,9 @@ function guardarAsistencia() {
 
     localStorage.setItem("historial", JSON.stringify(historial));
 
-    alert("Asistencia guardada ✅");
+    alert("✅ Asistencia guardada correctamente");
     mostrarHistorial();
 }
-
 function mostrarHistorial() {
     const tabla = document.getElementById("historial");
     tabla.innerHTML = "";
@@ -141,4 +153,9 @@ function mostrarHistorial() {
         `;
         tabla.innerHTML += fila;
     });
+}
+
+function obtenerFechaHoy() {
+    const hoy = new Date();
+    return hoy.toISOString().split("T")[0]; // formato: 2026-04-29
 }
