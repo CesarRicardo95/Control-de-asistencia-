@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Control de Asistencia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>Control de Asistencia</h1>
+
+<div class="selector">
+    <label>Selecciona una clase:</label>
+    <select id="clase">
+        <option value="Clase 1">Clase 1</option>
+        <option value="Clase 2">Clase 2</option>
+        <option value="Clase 3">Clase 3</option>
+        <option value="Clase 4">Clase 4</option>
+    </select>
+</div>
+
+<div class="form">
+    <input type="text" id="nombre" placeholder="Nombre del estudiante">
+
+    <select id="estado">
+        <option value="Asistencia">Asistencia</option>
+        <option value="Falta injustificada">Falta sin justificar</option>
+        <option value="Falta justificada">Falta justificada</option>
+    </select>
+
+    <button onclick="registrar()">Registrar</button>
+</div>
+
+<h2>Registros</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Clase</th>
+            <th>Nombre</th>
+            <th>Estado</th>
+            <th>Fecha</th>
+        </tr>
+    </thead>
+    <tbody id="tabla"></tbody>
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>
