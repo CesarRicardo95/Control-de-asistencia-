@@ -15,7 +15,7 @@ const estudiantes = {
         "Fausto David Rodriguez Pozo",
         "Sheyla Valeska Pilligua Pita",
         "Lissette Susana Solano Quinde",
-        "David Gomez Solano",
+        "David Gomez Solano"
     ],
 
     "Clase 2": [
@@ -40,7 +40,7 @@ const estudiantes = {
         "Kevin Josué Limones Muñoz",
         "Scarlette Valeshka Lino Domínguez",
         "Justin Javier Roca Tomala",
-        "Alexis Ariel López Rosales",
+        "Alexis Ariel López Rosales"
     ],
 
     "Clase 3": [
