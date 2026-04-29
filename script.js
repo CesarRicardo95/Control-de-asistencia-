@@ -72,7 +72,10 @@ const estudiantes = {
     ]
 };
 
-document.addEventListener("DOMContentLoaded", cargarLista);
+document.addEventListener("DOMContentLoaded", () => {
+    cargarLista();
+    mostrarHistorial();
+});
 
 function cargarLista() {
     const clase = document.getElementById("clase").value;
@@ -119,4 +122,23 @@ function guardarAsistencia() {
 
     alert("Asistencia guardada ✅");
     mostrarHistorial();
+}
+
+function mostrarHistorial() {
+    const tabla = document.getElementById("historial");
+    tabla.innerHTML = "";
+
+    let datos = JSON.parse(localStorage.getItem("historial")) || [];
+
+    datos.forEach(reg => {
+        let fila = `
+            <tr>
+                <td>${reg.fecha}</td>
+                <td>${reg.clase}</td>
+                <td>${reg.nombre}</td>
+                <td>${reg.estado}</td>
+            </tr>
+        `;
+        tabla.innerHTML += fila;
+    });
 }
