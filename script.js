@@ -12,13 +12,13 @@ const estudiantes = {
         "Bianca Ashley Ortega Chamba",
         "Amir Jeremy Alejandro Salcedo",
         "Jordan Sebastian Lino Dominguez"
-    ],
-
-    "Clase 2": [
         "Fausto David Rodriguez Pozo",
         "Sheyla Valeska Pilligua Pita",
         "Lissette Susana Solano Quinde",
         "David Gomez Solano",
+    ],
+
+    "Clase 2": [
         "Nicolas Michael Villon Aquino",
         "Doménica Yaritza Rodríguez Suárez",
         "Jesus Mejillones Tigrero",
@@ -26,10 +26,7 @@ const estudiantes = {
         "Karla Mayle Tomalá Cruz",
         "Mirellys Lilibeth Ricardo Rodriguez",
         "Ashley Samantha Zambrano Chenche",
-        "Lisbeth Gonzalez Ortiz"
-    ],
-
-    "Clase 3": [
+        "Lisbeth Gonzalez Ortiz",
         "Dayana Valentina Muñiz Quimi",
         "Daniel Fernando Candelario Panchana",
         "Ivanna Valentina Carvajal Orrala",
@@ -41,13 +38,13 @@ const estudiantes = {
         "Jorge Wladimir Hernández Guevara",
         "Cristhel Mirelly Escalante Medina",
         "Kevin Josué Limones Muñoz",
-        "Scarlette Valeshka Lino Domínguez"
-    ],
-
-    "Clase 4": [
+        "Scarlette Valeshka Lino Domínguez",
         "Justin Javier Roca Tomala",
         "Alexis Ariel López Rosales",
-        "Aylin Elizabeth Holguin Baque",
+    ],
+
+    "Clase 3": [
+       "Aylin Elizabeth Holguin Baque",
         "Anderson Jahir Zambrano Chenche",
         "Felix Gabriel Muñiz Quimi",
         "Maria Fernanda Gonzabay Palma",
@@ -59,7 +56,11 @@ const estudiantes = {
         "Karla Hernandez Del Pezo",
         "Samuel Andrés Rodríguez Pozo",
         "Adrian Joel Rodriguez Suarez",
-        "Niurka Rivera Muñoz",
+        "Niurka Rivera Muñoz"
+    ],
+
+    "Clase 4": [
+    
         "Fernanda Nicole Ricardo Orrala",
         "Danna Gomez Lindao",
         "Joselyn Jimena Muñiz Quimi",
