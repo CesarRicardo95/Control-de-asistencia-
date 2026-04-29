@@ -11,7 +11,7 @@ const estudiantes = {
         "Tais Camila Ortega Chamba",
         "Bianca Ashley Ortega Chamba",
         "Amir Jeremy Alejandro Salcedo",
-        "Jordan Sebastian Lino Dominguez"
+        "Jordan Sebastian Lino Dominguez",
     ],
 
     "Clase 2": [
@@ -26,7 +26,7 @@ const estudiantes = {
         "Karla Mayle Tomalá Cruz",
         "Mirellys Lilibeth Ricardo Rodriguez",
         "Ashley Samantha Zambrano Chenche",
-        "Lisbeth Gonzalez Ortiz"
+        "Lisbeth Gonzalez Ortiz",
     ],
 
     "Clase 3": [
@@ -41,7 +41,7 @@ const estudiantes = {
         "Jorge Wladimir Hernández Guevara",
         "Cristhel Mirelly Escalante Medina",
         "Kevin Josué Limones Muñoz",
-        "Scarlette Valeshka Lino Domínguez"
+        "Scarlette Valeshka Lino Domínguez",
     ],
 
     "Clase 4": [
@@ -66,7 +66,7 @@ const estudiantes = {
         "Valeska Milena Escalante Medina",
         "Isabella Valeria Guzñay Gomez",
         "Natasha Isabel Bernabé Rivera",
-        "Ana Belen Rosales Sanchez"
+        "Ana Belen Rosales Sanchez",
     ]
 };
 
