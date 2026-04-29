@@ -11,14 +11,14 @@ const estudiantes = {
         "Tais Camila Ortega Chamba",
         "Bianca Ashley Ortega Chamba",
         "Amir Jeremy Alejandro Salcedo",
-        "Jordan Sebastian Lino Dominguez",
-        "Fausto David Rodriguez Pozo",
-        "Sheyla Valeska Pilligua Pita",
-        "Lissette Susana Solano Quinde",
-        "David Gomez Solano"
+        "Jordan Sebastian Lino Dominguez"
     ],
 
     "Clase 2": [
+        "Fausto David Rodriguez Pozo",
+        "Sheyla Valeska Pilligua Pita",
+        "Lissette Susana Solano Quinde",
+        "David Gomez Solano",
         "Nicolas Michael Villon Aquino",
         "Doménica Yaritza Rodríguez Suárez",
         "Jesus Mejillones Tigrero",
@@ -117,4 +117,4 @@ function guardarAsistencia() {
 
     alert("Asistencia guardada correctamente ✅");
 }
-}
+
