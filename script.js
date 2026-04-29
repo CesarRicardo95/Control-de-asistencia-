@@ -11,14 +11,14 @@ const estudiantes = {
         "Tais Camila Ortega Chamba",
         "Bianca Ashley Ortega Chamba",
         "Amir Jeremy Alejandro Salcedo",
-        "Jordan Sebastian Lino Dominguez"
-    ],
-
-    "Clase 2": [
+        "Jordan Sebastian Lino Dominguez",
         "Fausto David Rodriguez Pozo",
         "Sheyla Valeska Pilligua Pita",
         "Lissette Susana Solano Quinde",
-        "David Gomez Solano",
+        "David Gomez Solano"
+    ],
+
+    "Clase 2": [
         "Nicolas Michael Villon Aquino",
         "Doménica Yaritza Rodríguez Suárez",
         "Jesus Mejillones Tigrero",
