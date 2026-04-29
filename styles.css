@@ -44,3 +44,20 @@ button {
 button:hover {
     background: #218838;
 }
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 90%;
+    background: white;
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background: #007bff;
+    color: white;
+}
