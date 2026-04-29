@@ -9,16 +9,32 @@ h1 {
     color: #333;
 }
 
-.selector, .form {
-    margin: 15px;
+.selector {
+    margin: 20px;
 }
 
-input, select, button {
-    padding: 10px;
-    margin: 5px;
+.estudiante {
+    background: white;
+    margin: 8px auto;
+    padding: 12px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.estudiante span {
+    text-align: left;
+}
+
+.estudiante select {
+    padding: 5px;
 }
 
 button {
+    margin-top: 20px;
+    padding: 12px 20px;
     background: #28a745;
     color: white;
     border: none;
@@ -27,21 +43,4 @@ button {
 
 button:hover {
     background: #218838;
-}
-
-table {
-    margin: auto;
-    border-collapse: collapse;
-    width: 80%;
-    background: white;
-}
-
-th, td {
-    padding: 10px;
-    border: 1px solid #ddd;
-}
-
-th {
-    background: #007bff;
-    color: white;
 }
