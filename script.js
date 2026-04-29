@@ -101,21 +101,22 @@ function guardarAsistencia() {
     const clase = document.getElementById("clase").value;
     const lista = document.querySelectorAll(".estudiante");
 
-    let registros = [];
+    let historial = JSON.parse(localStorage.getItem("historial")) || [];
 
     lista.forEach(item => {
         const nombre = item.querySelector("span").textContent;
         const estado = item.querySelector("select").value;
 
-        registros.push({
+        historial.push({
+            fecha: new Date().toLocaleString(),
             clase,
             nombre,
-            estado,
-            fecha: new Date().toLocaleString()
+            estado
         });
     });
 
-    localStorage.setItem("asistencia_" + clase, JSON.stringify(registros));
+    localStorage.setItem("historial", JSON.stringify(historial));
 
-    alert("Asistencia guardada correctamente ✅");
+    alert("Asistencia guardada ✅");
+    mostrarHistorial();
 }
